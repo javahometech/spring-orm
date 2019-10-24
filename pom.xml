@@ -60,4 +60,16 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://15.206.72.29:8081/repository/maven-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://15.206.72.29:8081/repository/maven-releases/</url>
+		</repository>
+  	</distributionManagement>
 </project>
